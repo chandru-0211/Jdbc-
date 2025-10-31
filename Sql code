@@ -1,0 +1,27 @@
+CREATE DATABASE studentdb;
+USE studentdb;
+
+CREATE TABLE students (
+    name VARCHAR(50),
+    marks INT
+);
+
+INSERT INTO students (name, marks) VALUES
+('Adhi', 85),
+('Abinaya', 60),
+('Akshya', 45),
+('Chandru', 75),
+('Abishek', 55),
+('Abitha', 90),
+('Amrithra', 40),
+('Arjun', 82),
+('Ashok', 77),
+('Ashwin', 63),
+('Bala', 58),
+('Bharath', 35),
+('Bhavani', 92),
+('Bharani', 80),
+('Bhuvanesh', 69),
+('Jashwanth', 84),
+('Chandrahass', 73),
+('Dheena', 88);
